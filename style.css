@@ -1,0 +1,1006 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+}
+header .header-bg {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header .header-section {
+  width: 100%;
+  padding-top: 30px;
+  position: absolute;
+  z-index: 2;
+}
+header .header-section .header-container {
+  width: 85%;
+  margin: 0 auto;
+}
+header .header-section .header-container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-section .header-container nav .nav-logo {
+  margin-right: 510px;
+  display: block;
+}
+header .header-section .header-container nav .nav-logo img {
+  display: block;
+  width: 45%;
+}
+header .header-section .header-container nav ul {
+  width: 35%;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-section .header-container nav ul li {
+  padding: 15px 0;
+}
+header .header-section .header-container nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+}
+header .header-section .header-container nav ul .close {
+  cursor: pointer;
+}
+header .header-section .header-container nav .navbar-button {
+  display: block;
+  width: 15%;
+  padding: 15px 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+header .header-section .header-container nav .navbar-button:hover {
+  background-color: #067943;
+  border: none;
+}
+header .header-section .header-container nav .mobile-navbar {
+  display: none;
+}
+header .header-section .header-container nav .mobile-navbar .menu-button {
+  background-color: #034b29;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+header .header-section .header-container nav .mobile-navbar .menu-button i {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+header .header-section .header-container nav .menu-list {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 5;
+  top: 100px;
+  left: 0;
+}
+header .header-section .header-container nav .menu-list li {
+  padding: 10px 0;
+  border: 1px solid #d4d4d4;
+}
+header .header-section .header-container nav .menu-list li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+header .header-section .header-container h2 {
+  font-family: sans-serif;
+  margin-top: 240px;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 70px;
+  text-align: center;
+}
+header .header-section .header-container .section-button {
+  display: block;
+  margin: 40px auto 0;
+  width: 15%;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #067943;
+  transition: 0.3s;
+}
+header .header-section .header-container .section-button:hover {
+  filter: brightness(0.9);
+}
+
+main .design-section {
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+main .design-section p {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+main .design-section h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+}
+main .design-section hr {
+  width: 8%;
+  background-color: #067943;
+  height: 5px;
+  margin: 20px auto 60px;
+}
+main .design-section ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .design-section ul li {
+  width: 30%;
+}
+main .design-section ul li img {
+  width: 100%;
+  height: 470px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.9);
+}
+main .design-section ul li h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 30px 0px 20px;
+  padding: 0 10px;
+}
+main .design-section ul li p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 35px;
+  padding: 0 10px;
+  text-align: left;
+}
+main .client-section {
+  padding: 70px 0;
+  background-color: #ecf2ef;
+}
+main .client-section .client-container {
+  width: 85%;
+  margin: 0 auto;
+}
+main .client-section .client-container .client-div {
+  width: 20%;
+  margin: 0 auto 50px;
+}
+main .client-section .client-container .client-div img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+main .client-section .client-container .client-div span {
+  display: block;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0;
+}
+main .client-section .client-container .client-div ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 6px;
+}
+main .client-section .client-container .client-div ul li {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #067943;
+  margin-right: 7px;
+  transform: rotate(45deg);
+}
+main .client-section .client-container p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 55%;
+}
+main .client-section .client-container button {
+  display: block;
+  margin: 40px auto 0;
+  width: 22%;
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .client-section .client-container button:hover {
+  background-color: #067943;
+  color: #ffffff;
+  border: 2px solid #067943;
+}
+main .creator-section {
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .creator-section .creator-div {
+  width: 33%;
+}
+main .creator-section .creator-div img {
+  width: 100%;
+  height: 540px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  border-radius: 5px;
+}
+main .creator-section .creator-div h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 20px 0;
+  text-align: center;
+}
+main .creator-section .creator-div p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.7rem;
+  text-align: center;
+}
+main .creator-section .creator-text {
+  width: 60%;
+}
+main .creator-section .creator-text .creator-subheader {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+main .creator-section .creator-text h2 {
+  width: 75%;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 4rem;
+  margin: 30px 0;
+}
+main .creator-section .creator-text .text-1 {
+  width: 75%;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 2.4rem;
+}
+main .creator-section .creator-text .text-2 {
+  width: 75%;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 2.4rem;
+}
+main .creator-section .creator-text .text-3 {
+  width: 75%;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 2.4rem;
+}
+main .creator-section .creator-text .text-4 {
+  width: 75%;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 2.4rem;
+}
+main .creator-section .creator-text .button-1 {
+  width: 30%;
+  margin-right: 20px;
+  background-color: #067943;
+  color: #ffffff;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .creator-section .creator-text .button-1:hover {
+  background-color: #034b29;
+}
+main .creator-section .creator-text .button-2 {
+  width: 30%;
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .creator-section .creator-text .button-2:hover {
+  background-color: #034b29;
+  color: #ffffff;
+  border: 2px solid #034b29;
+}
+main .call-section {
+  position: relative;
+  height: 520px;
+}
+main .call-section img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 520px;
+  filter: brightness(0.8);
+}
+main .call-section .call-container {
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+main .call-section .call-container .call-text {
+  width: 85%;
+  margin: 0 auto;
+}
+main .call-section .call-container .call-text h2 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+main .call-section .call-container .call-text p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 30px 0;
+}
+main .call-section .call-container .call-text button {
+  width: 20%;
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .call-section .call-container .call-text button:hover {
+  background-color: #034b29;
+  border: 2px solid #034b29;
+}
+
+footer {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  margin-right: 10px;
+}
+footer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 200;
+}
+footer a {
+  display: block;
+  width: 5%;
+}
+footer a img {
+  display: block;
+  width: 100%;
+}
+footer p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  header .header-section {
+    width: 100%;
+  }
+  header .header-section .header-container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  header .header-section .header-container .mobile-navbar {
+    display: none;
+  }
+  header .header-section .header-container .menu-list {
+    display: none;
+  }
+  main .creator-section .creator-text h2 {
+    width: 90%;
+  }
+  main .creator-section .creator-text .text-1 {
+    width: 90%;
+  }
+  main .creator-section .creator-text .text-2 {
+    width: 90%;
+  }
+  main .creator-section .creator-text .text-3 {
+    width: 90%;
+  }
+  main .creator-section .creator-text .text-4 {
+    width: 90%;
+  }
+  main .creator-section .creator-text .button-1 {
+    width: 35%;
+  }
+  main .creator-section .creator-text .button-2 {
+    width: 35%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .header-section .header-container nav .nav-logo {
+    margin-right: 270px;
+  }
+  header .header-section .header-container nav .nav-logo img {
+    width: 60px;
+  }
+  header .header-section .header-container nav ul li {
+    margin-right: 20px;
+  }
+  header .header-section .header-container nav .navbar-button {
+    width: auto;
+  }
+  header .header-section .header-container nav .mobile-navbar {
+    display: none;
+  }
+  header .header-section .header-container nav .menu-list {
+    display: none;
+  }
+  header .header-section .header-container .section-button {
+    width: auto;
+  }
+  main .design-section {
+    padding: 30px 0;
+  }
+  main .design-section h2 {
+    font-size: 2.3rem;
+  }
+  main .design-section ul li img {
+    height: 300px;
+  }
+  main .design-section ul li h3 {
+    font-size: 1.5rem;
+  }
+  main .design-section ul li p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  main .client-section {
+    padding: 30px 0;
+  }
+  main .client-section .client-container .client-div {
+    margin-bottom: 20px;
+  }
+  main .client-section .client-container p {
+    font-size: 1.5rem;
+    margin: 20px auto;
+    width: 55%;
+  }
+  main .client-section .client-container button {
+    width: auto;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  main .creator-section {
+    display: block;
+  }
+  main .creator-section .creator-div {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main .creator-section .creator-div h3 {
+    display: none;
+  }
+  main .creator-section .creator-div p {
+    display: none;
+  }
+  main .creator-section .creator-text {
+    width: 100%;
+  }
+  main .creator-section .creator-text .creator-subheader {
+    display: none;
+  }
+  main .creator-section .creator-text h2 {
+    text-align: center;
+    margin: 20px auto;
+  }
+  main .creator-section .creator-text p {
+    margin: 0 auto 20px;
+    width: 90%;
+  }
+  main .creator-section .creator-text .button-1 {
+    margin-left: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header .header-section .header-container nav .nav-logo img {
+    width: 50px;
+  }
+  header .header-section .header-container nav ul {
+    display: none;
+  }
+  header .header-section .header-container nav .navbar-button {
+    display: none;
+  }
+  header .header-section .header-container nav .mobile-navbar {
+    display: block;
+  }
+  header .header-section .header-container nav .mobile-navbar .menu-button {
+    display: block;
+  }
+  header .header-section .header-container nav .menu-list {
+    display: none;
+  }
+  header .header-section .header-container h2 {
+    font-size: 3rem;
+    margin-top: 400px;
+  }
+  header .header-section .header-container .section-button {
+    width: auto;
+  }
+  main .design-section {
+    width: 100%;
+    padding: 30px 0;
+  }
+  main .design-section h2 {
+    font-size: 2.3rem;
+  }
+  main .design-section hr {
+    margin: 10px auto 20px;
+  }
+  main .design-section ul li img {
+    height: 300px;
+  }
+  main .design-section ul li h3 {
+    font-size: 1.3rem;
+  }
+  main .design-section ul li p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  main .client-section {
+    padding: 30px 0;
+  }
+  main .client-section .client-container p {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  main .client-section .client-container button {
+    width: auto;
+  }
+  main .creator-section {
+    padding: 30px 0;
+    display: block;
+  }
+  main .creator-section .creator-div {
+    width: 100%;
+  }
+  main .creator-section .creator-div img {
+    display: block;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  main .creator-section .creator-div h3, main .creator-section .creator-div p {
+    display: none;
+  }
+  main .creator-section .creator-text {
+    width: 100%;
+  }
+  main .creator-section .creator-text .creator-subheader {
+    display: none;
+  }
+  main .creator-section .creator-text h2 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  main .creator-section .creator-text .text-1 {
+    width: 100%;
+    padding-left: 55px;
+  }
+  main .creator-section .creator-text .text-2 {
+    width: 100%;
+    padding-left: 55px;
+  }
+  main .creator-section .creator-text .text-3 {
+    width: 100%;
+    padding-left: 55px;
+  }
+  main .creator-section .creator-text .text-4 {
+    width: 100%;
+    padding-left: 55px;
+  }
+  main .creator-section .creator-text .button-1 {
+    width: auto;
+    margin-left: 60px;
+    padding: 17px;
+  }
+  main .creator-section .creator-text .button-2 {
+    width: auto;
+    padding: 15px;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  header .header-section .header-container nav .nav-logo {
+    margin-right: 200px;
+  }
+  header .header-section .header-container nav .nav-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  header .header-section .header-container nav ul {
+    display: none;
+  }
+  header .header-section .header-container nav .navbar-button {
+    display: none;
+  }
+  header .header-section .header-container nav .mobile-navbar {
+    display: block;
+  }
+  header .header-section .header-container nav .mobile-navbar .menu-button {
+    display: block;
+  }
+  header .header-section .header-container nav .menu-list {
+    display: none;
+  }
+  header .header-section .header-container h2 {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-top: 200px;
+  }
+  header .header-section .header-container .section-button {
+    width: auto;
+    font-size: 1rem;
+  }
+  main .design-section {
+    padding: 20px 0;
+  }
+  main .design-section p {
+    margin-bottom: 20px;
+  }
+  main .design-section h2 {
+    font-size: 2rem;
+    margin: 10px auto;
+  }
+  main .design-section hr {
+    margin-bottom: 20px;
+  }
+  main .design-section ul {
+    display: block;
+  }
+  main .design-section ul li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  main .client-section {
+    padding: 30px 0;
+  }
+  main .client-section .client-container .client-div {
+    margin-bottom: 20px;
+  }
+  main .client-section .client-container p {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 35px;
+  }
+  main .client-section .client-container button {
+    width: auto;
+  }
+  main .creator-section {
+    display: block;
+  }
+  main .creator-section .creator-div {
+    width: 100%;
+  }
+  main .creator-section .creator-div h3, main .creator-section .creator-div p {
+    display: none;
+  }
+  main .creator-section .creator-text {
+    width: 100%;
+  }
+  main .creator-section .creator-text .creator-subheader {
+    display: none;
+  }
+  main .creator-section .creator-text h2 {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: center;
+  }
+  main .creator-section .creator-text .text-1 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-2 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-3 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-4 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .button-1 {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  main .creator-section .creator-text .button-2 {
+    display: block;
+    width: 100%;
+    padding: 13px;
+  }
+  main .call-section {
+    height: 400px;
+  }
+  main .call-section img {
+    height: 400px;
+  }
+  main .call-section .call-container .call-text h2 {
+    font-size: 2.5rem;
+  }
+  main .call-section .call-container .call-text p {
+    font-size: 1.5rem;
+  }
+  main .call-section .call-container .call-text button {
+    width: 250px;
+  }
+  footer {
+    display: block;
+  }
+  footer ul {
+    width: 100%;
+    display: block;
+  }
+  footer ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  footer ul li a {
+    text-align: center;
+    width: 100%;
+  }
+  footer a {
+    display: block;
+    width: 100%;
+  }
+  footer a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+}
+@media (min-width: 0) and (max-width: 574px) {
+  header .header-section .header-container nav .nav-logo {
+    margin-right: 200px;
+  }
+  header .header-section .header-container nav .nav-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  header .header-section .header-container nav ul {
+    display: none;
+  }
+  header .header-section .header-container nav .navbar-button {
+    display: none;
+  }
+  header .header-section .header-container nav .mobile-navbar {
+    display: block;
+  }
+  header .header-section .header-container nav .mobile-navbar .menu-button {
+    display: block;
+  }
+  header .header-section .header-container nav .menu-list {
+    display: none;
+  }
+  header .header-section .header-container h2 {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-top: 200px;
+  }
+  header .header-section .header-container .section-button {
+    width: auto;
+    font-size: 1rem;
+  }
+  main .design-section {
+    padding: 20px 0;
+  }
+  main .design-section p {
+    margin-bottom: 20px;
+  }
+  main .design-section h2 {
+    font-size: 2rem;
+    margin: 10px auto;
+  }
+  main .design-section hr {
+    margin-bottom: 20px;
+  }
+  main .design-section ul {
+    display: block;
+  }
+  main .design-section ul li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  main .client-section {
+    padding: 30px 0;
+  }
+  main .client-section .client-container .client-div {
+    margin-bottom: 20px;
+  }
+  main .client-section .client-container p {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 35px;
+  }
+  main .client-section .client-container button {
+    width: auto;
+  }
+  main .creator-section {
+    display: block;
+  }
+  main .creator-section .creator-div {
+    width: 100%;
+  }
+  main .creator-section .creator-div h3, main .creator-section .creator-div p {
+    display: none;
+  }
+  main .creator-section .creator-text {
+    width: 100%;
+  }
+  main .creator-section .creator-text .creator-subheader {
+    display: none;
+  }
+  main .creator-section .creator-text h2 {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: center;
+  }
+  main .creator-section .creator-text .text-1 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-2 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-3 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .text-4 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  main .creator-section .creator-text .button-1 {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  main .creator-section .creator-text .button-2 {
+    display: block;
+    width: 100%;
+    padding: 13px;
+  }
+  main .call-section {
+    height: 400px;
+  }
+  main .call-section img {
+    height: 400px;
+  }
+  main .call-section .call-container .call-text h2 {
+    font-size: 2.5rem;
+  }
+  main .call-section .call-container .call-text p {
+    font-size: 1rem;
+  }
+  main .call-section .call-container .call-text button {
+    width: 200px;
+    padding: 10px;
+  }
+  footer {
+    display: block;
+  }
+  footer ul {
+    width: 100%;
+    display: block;
+  }
+  footer ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  footer ul li a {
+    text-align: center;
+    width: 100%;
+  }
+  footer a {
+    display: block;
+    width: 100%;
+  }
+  footer a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+}
